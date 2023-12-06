@@ -27,7 +27,7 @@ if uploaded_image is not None:
     image = Image.open(uploaded_image).convert('RGB')
     st.image(image, caption='Uploaded Image', use_column_width=True)
     
-    class_name = ['Baby Back Ribs', 'Burger King Double Whopper', 'Chicken Caesar Salad', 'Fried Shrimp', 'Pad Thai', 'Pizza', 'Ramen']
+    class_name = ['Baby Back Ribs Augmentation', 'Burger King Double Whopper Augmentation', 'Chicken Caesar Salad Augmentation', 'Fried Shrimp Augmentation', 'Pad Thai Augmentation', 'Pizza Augmentation', 'Ramen Augmentation']
 
     if st.button('Prediction'):
         #Prediction class
