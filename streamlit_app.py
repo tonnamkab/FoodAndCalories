@@ -5,7 +5,7 @@ from prediction import pred_class
 import numpy as np
 
 # Set title 
-st.title('Microplastic Classification')
+st.title('FoodAndCalories Classification')
 
 #Set Header 
 st.header('Please up load picture')
