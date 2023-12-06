@@ -3,6 +3,9 @@ import torch
 from PIL import Image
 from prediction import pred_class
 import numpy as np
+import pandas as pd
+import math
+import random
 
 # Set title 
 st.title('FoodAndCalories Classification')
